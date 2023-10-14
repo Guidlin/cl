@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Craig Lang</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+</head>
+<body>
+    <header>
+        <h1> <span>Craig</span> <span id="lang">Lang</span></h1>
+        <nav id="desktop-nav">
+            <a href="#">Home</a>
+            <a href="#">Services</a>
+            <a href="#">Get a quote</a>
+        </nav>
+        <div id="mobile-container">
+            <a href="javascript:toggleNav()" id="hamburger"><img src="img/menu.svg" ></a>
+
+            <nav id="mobile-nav">
+                <a href="#">Home</a>
+                <a href="#">Services</a>
+                <a href="#">Get a quote</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div id="maintitle">
+            <div id="maintitletext">
+                <h2>Professional roofing and plastering services</h2>
+                <p>30+ years experience</p>
+                <a class="button secondary" href="#about">Learn more</a>
+            </div>
+
+            <section id="about">
+                <h2>About us</h2>
+                <hr>
+                <p>Craig Lang has over 30 years experience in the roofing and plastering trade, Craig Lang offers all roof and chimney repairs. The company also offers all external rendering, roughcasting, plaster work, powerwashing, guttering, and all UPVC roof lines and fascias. We carry out work on both residential and commercial properties.</p>
+            </section>
+            
+            <section>
+                <h2>Services we offer</h2>
+                <hr>
+                <div id="services">
+                    <div class="service" id="emergencylocksmith">
+                        <div class="servicetext">
+                            <h3>Roof repair</h3>
+                            <a class="button" href="#">Book now</a>
+                        </div>
+                    </div>
+                    <div class="service" id="replacementlocks">
+                        <div class="servicetext">
+                            <h3>Chimney repair</h3>
+                            <a class="button" href="#">Book now</a>
+                        </div>
+                    </div>
+                    <div class="service" id="doorrepairs">
+                        <div class="servicetext">
+                            <h3>Roughcasting</h3>
+                            <a class="button" href="#">Book now</a>
+                        </div>
+                    </div>
+                </div>           
+            </section>
+
+            <section>
+                <h2>Enquiries</h2>
+                <hr />
+                <form>
+                    <label for="username">Your name</label>
+                    <input id="username" type="text" placeholder="Enter your name here">
+                    <label for="username">Email address</label>
+                    <input id="username" type="email" placeholder="Enter your email address here">
+                    <label for="message">Your message</label>
+                    <textarea id="message" type="text" placeholder="Enter your message here"></textarea>
+                    <input type="submit" class="button" value="Send message">
+                </form>
+            </section>
+        </div>
+    </main>
+</body>
+</html>
